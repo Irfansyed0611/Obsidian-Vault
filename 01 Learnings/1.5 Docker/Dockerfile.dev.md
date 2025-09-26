@@ -4,14 +4,14 @@
 
 ## Key Differences
 
-**Dockerfile (Production)**:
+### **Dockerfile (Production)**:
 - Optimized for size and security
 - Multi-stage builds to exclude dev dependencies
 - Minimal base images (alpine, distroless)
 - No development tools
 - Hardened security settings
 
-**Dockerfile.dev (Development)**:
+### **Dockerfile.dev (Development)**:
 - Includes development tools and dependencies
 - Hot reloading capabilities
 - Debug tools and utilities
@@ -20,7 +20,7 @@
 
 ## Example Comparison
 
-**Dockerfile (Production)**:
+### **Dockerfile (Production)**:
 ```dockerfile
 FROM node:18-alpine
 WORKDIR /app
@@ -32,7 +32,7 @@ EXPOSE 3000
 CMD ["npm", "start"]
 ```
 
-**Dockerfile.dev (Development)**:
+### **Dockerfile.dev (Development)**:
 ```dockerfile
 FROM node:18
 WORKDIR /app
