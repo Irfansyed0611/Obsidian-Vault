@@ -1,7 +1,3 @@
-# Obsidian specific files and folders
-.obsidian/
-.trash/
-
 # Ignore sensitive files
 Passwords.md
 

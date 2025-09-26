@@ -1,0 +1,10 @@
+{
+  "sanctum@@light-mode-contrast-mode": "sanctum-white",
+  "sanctum@@nav-folder-indicators": true,
+  "sanctum@@blockquote-border-color@@light": "#E7DB00",
+  "things-style@@fancy-code": true,
+  "things-style@@fancy-highlight": true,
+  "things-style@@strong-color": "#6C37CD",
+  "minimal-style@@bg1@@light": "#2A2929",
+  "minimal-style@@bg2@@light": "#000000"
+}
